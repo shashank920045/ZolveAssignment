@@ -1,12 +1,6 @@
 import './App.css';
 import React,{Component} from 'react';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './sai.css';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Form from 'react-bootstrap/Form'
 import BarChart from './BarChart'
 import CopyText from './CopyText'
 
@@ -87,7 +81,6 @@ class App extends Component {
 
     handleSubmit(event) {
         
-        let toTimestamp = strDate => Date.parse(event.DateFrom);
         
         let api =   'https://api.stackexchange.com/2.2/tags?';
          api    = api+ 'page='+ this.state.page +'&';
