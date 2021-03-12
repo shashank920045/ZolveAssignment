@@ -1,10 +1,7 @@
-import './App.css';
 import React,{Component} from 'react';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './sai.css';
 import BarChart from './BarChart'
-import Menu from './Menu'
+
 
 class CopyText extends Component{
     
