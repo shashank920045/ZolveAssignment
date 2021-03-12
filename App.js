@@ -1,4 +1,4 @@
-import './App.css';
+
 import React,{Component} from 'react';
 import './sai.css';
 import BarChart from './BarChart'
